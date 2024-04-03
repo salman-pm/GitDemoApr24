@@ -1,5 +1,5 @@
 public class InterestCalculator {
     public static double calculate(double principal, int noOfYears, double interestRate){
-        return 100.0;
+        return (principal * noOfYears * interestRate) / 100;
     }
 }
